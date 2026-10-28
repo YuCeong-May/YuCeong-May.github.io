@@ -12,7 +12,7 @@ excerpt: "Multilingual speech recognition, Speech-LLMs, and efficient adaptation
 
 I am an M.Eng. candidate in Communication Engineering at **Shanghai Normal University**, supervised by **Prof. Yanhua Long**. My research focuses on **automatic speech recognition (ASR)** and **speech large language models (Speech-LLMs)**, with particular interests in multilingual recognition, parameter-efficient adaptation, and target-speaker ASR.
 
-I am currently an AI Speech Algorithm R&D Intern at **Baidu ACG**. Previously, I was a Speech Foundation Model Research Intern at **Unisound AI Labs**.
+I am currently an intern at **Baidu**, focusing on **target-speaker automatic speech recognition (TS-ASR)**.
 
 <div class="research-tags"><span>Multilingual ASR</span><span>Speech-LLMs</span><span>Parameter-efficient adaptation</span><span>Target-speaker ASR</span></div>
 
