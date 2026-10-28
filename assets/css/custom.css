@@ -17,14 +17,22 @@ html { scroll-behavior:smooth; scroll-padding-top:90px; }
 @media (min-width:1000px) { .entry-date { float:right; display:inline; padding-top:.15rem; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
 
-/* Keep the portrait circular at every sidebar size without stretching it. */
-.author__avatar > img {
+/* Explicit equal dimensions override the theme's non-square avatar rules. */
+.author__avatar > img.author__portrait {
   display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px;
+  max-width: none !important;
   object-fit: cover;
   object-position: center 20%;
-  border-radius: 50%;
+  border-radius: 50% !important;
   box-sizing: border-box;
+}
+@media (min-width: 925px) {
+  .author__avatar > img.author__portrait {
+    width: 175px !important;
+    height: 175px !important;
+    min-width: 175px;
+  }
 }
