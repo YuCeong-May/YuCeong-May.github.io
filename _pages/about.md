@@ -6,8 +6,7 @@ author_profile: true
 excerpt: "Multilingual speech recognition, Speech-LLMs, and efficient adaptation."
 ---
 
-<p class="research-kicker">SPEECH · LANGUAGE · EFFICIENT LEARNING</p>
-<p class="research-lead">Building speech recognition systems that work across languages and challenging listening conditions.</p>
+<p class="research-kicker">ASR · Speech-LLM</p>
 
 <h2 id="about">About me</h2>
 
