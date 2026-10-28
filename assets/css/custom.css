@@ -1,0 +1,18 @@
+/* Personal additions to the Academic Pages template. */
+html { scroll-behavior:smooth; scroll-padding-top:90px; }
+.page__content { line-height:1.75; }
+.page__title { letter-spacing:-.035em; }
+.research-kicker { color:var(--global-link-color); font-size:.68em!important; font-weight:700; letter-spacing:.15em; margin-top:.2rem; }
+.research-lead { font-size:1.32em!important; line-height:1.5; max-width:44rem; margin-bottom:1.8rem; }
+.research-tags { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.3rem 0 2rem; }
+.research-tags span { font-size:.7em; padding:.22rem .65rem; border:1px solid var(--global-border-color); border-radius:5px; }
+.page__content h2 { margin-top:2.4rem; padding-bottom:.45rem; }
+.paper { padding:1.2rem 0 1.3rem; border-bottom:1px solid var(--global-border-color); }
+.paper p { margin-bottom:.65rem; }
+.paper-venue { display:inline-block; color:var(--global-link-color); font-size:.7em; font-weight:700; letter-spacing:.07em; }
+.paper-preprint { color:var(--global-text-color-light); }
+.paper-link { font-size:.88em; font-weight:600; }
+.entry-date { display:block; font-size:.78em; color:var(--global-text-color-light); }
+.last-updated { margin-top:2rem; color:var(--global-text-color-light); font-size:.7em!important; }
+@media (min-width:1000px) { .entry-date { float:right; display:inline; padding-top:.15rem; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
